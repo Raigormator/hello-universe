@@ -5,5 +5,8 @@ public class HelloWorld {
 		System.out.println("Hello World");
 		Dog dog = new Dog();
 		System.out.println(dog.bark());
+
+		Cat cat = new Cat();
+		System.out.println(cat.meow());
     }
 }
